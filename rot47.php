@@ -40,48 +40,4 @@
   }
   
 ?>
-<!Doctype html>
-<html lang="es">
-  <head>
-      <title>Ejemplo de cifrado ROT 47</title>
-  </head>
-  <body>
-    <section>
-      <header>
-        <h1>Ejemplo de cifrado/descifrado ROT 47</h1>
-      </header>
-      <fieldset>
-        <legend>
-          Cifrado
-        </legend>
-        <form name="cifrar" id="cifrar" method="post" action="#">
-          <p>
-              <input type="text" name="txtcifrar" id="txtcifrar"/>
-          </p>
-          <p>
-            <input type="submit" value="Cifrar"/>
-          </p>
-          <p style="color:red">
-            <?=$cifrado?>
-          </p>
-        </form>
-      </fieldset>
-      <fieldset>
-        <legend>
-          Desifrado
-        </legend>
-        <form name="descifrar" id="descifrar" method="post" action="#">
-          <p>
-              <input type="text" name="txtdescifrar" id="txtdescifrar"/>
-          </p>
-          <p>
-            <input type="submit" value="Descifrar"/>
-          </p>
-          <p style="color:red">
-            <?=$descifrado?>
-          </p>
-        </form>
-      </fieldset>
-    </section>
-  </body>
-</html>
+<?php include "includes/formulario.php" ?>
