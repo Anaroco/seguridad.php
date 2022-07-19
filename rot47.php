@@ -41,3 +41,4 @@
   
 ?>
 <?php include "includes/formulario.php" ?>
+<?php include "includes/hash.php" ?>
