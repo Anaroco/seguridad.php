@@ -43,3 +43,4 @@ if (isset($_POST["txtcifrar"]) || isset($_POST["txtdescifrar"])) {
 
 ?>
 <?php include "includes/formulario.php" ?>
+<?php include "includes/hash.php" ?>

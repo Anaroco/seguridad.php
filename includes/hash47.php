@@ -1,4 +1,3 @@
-
 <?php
 function old_tiger($data = "", $width = 192, $rounds = 3)
 {
@@ -25,13 +24,14 @@ $data = "";
       <title>Hash</title>
   </head>
     <body>
-    <h2>Cesar</h2></br>
+    <h2>Rot 47</h2></br>
         <form name="hash" id="hash" method="post" action="#">
         <p>
             <input type="submit" value="hash"/>
           </p>
-          <h3><?=hash('tiger192,3', 'a-string'), PHP_EOL;?></h3>
+          <h3><?=old_tiger('a-string'), PHP_EOL;?></h3>
         </form>
+
         
     </body>
 </html>

@@ -13,8 +13,7 @@
 
             <form name="formulario"> 
               <select name ="desplegable" onChange='location.replace(document.formulario.desplegable.value);'>
-              <option value="index.php"></option>
-                  <option value="index.php">Elige tu codificador</option>
+              <option value="index.php">Elige tu codificador</option>
                   <option value="cesar.php">Cesar</option>
                   <option value="rot47.php">Rot 47</option>
                    ...
@@ -39,7 +38,7 @@
                             <div class="input-group-addon">
                                 <button type="submit" value="Cifrar" class="btn btn-primary">Codificar</button>
                                 <div class="col">
-                                    <h1><?=$cifrado?></h1>
+                                    <h1></h1>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +49,7 @@
                               <div class="input-group-addon">
                                 <button type="submit" value="Descifrar" class="btn btn-success">Decodificar</button>
                                 <div class="col">
-                                     <h1><?=$descifrado?></h1>
+                                     <h1></h1>
                                 </div>
                           </div>
                         </div>
@@ -59,5 +58,4 @@
                 </div>
             </form>
             <hr>
-              
-
+              <h2>Hash</h2>
